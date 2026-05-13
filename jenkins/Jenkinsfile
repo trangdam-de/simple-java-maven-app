@@ -29,11 +29,6 @@ pipeline {
                 echo 'xin chao1'
             }
         }
-        stage('Complete'){
-            steps {
-                echo 'Job Complete!'
-            }
-        }
     }
 }
 // test 
