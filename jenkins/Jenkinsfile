@@ -29,6 +29,11 @@ pipeline {
                 echo 'xin chao1'
             }
         }
+        stage('echo 2'){
+            steps {
+                echo 'xin chao2'
+            }
+        }
     }
 }
 // test 
